@@ -1,0 +1,5 @@
+fictoan:
+    container_name: fictoan
+    build: .
+    ports:
+     - "3000:80"
