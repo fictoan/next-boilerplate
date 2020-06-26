@@ -1,23 +1,23 @@
 # FICTOAN — React boilerplate
-### v0.7.2
+### v0.7.3
 #### A nice little starter project in React to hit the ground running.
 
 ---
 
 #### What you need
-1. NodeJS
+1. **NodeJS**
 
     This is a Javascript “runtime”. React is a JS framework, so needs something like Node to run inside of. Download from [here](https://nodejs.org/en/download/).
     
-2. Yarn
+2. **Yarn**
     
     A package manager. This helps manage dependencies required by this project. Download from [here](https://classic.yarnpkg.com/en/docs/install).
     
-3. A code editor
+3. **A code editor**
     
     Someplace for you to type code. [VS Code](https://code.visualstudio.com/) is a high-quality free and open-source editor.
     
-4. A terminal
+4. **A terminal**
     
     The opposite of UI. We recommend [Hyper](https://hyper.is/). This is to run and manage your project. MacOS come with a built-in terminal called, um, Terminal. Windows has Command Prompt.
 
