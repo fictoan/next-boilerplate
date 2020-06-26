@@ -5,20 +5,16 @@
 ---
 
 #### What you need
-1. **NodeJS**
-
+1. **NodeJS**<br/>
     This is a Javascript “runtime”. React is a JS framework, so needs something like Node to run inside of. Download from [here](https://nodejs.org/en/download/).
     
-2. **Yarn**
-    
+2. **Yarn**<br/>
     A package manager. This helps manage dependencies required by this project. Download from [here](https://classic.yarnpkg.com/en/docs/install).
     
-3. **A code editor**
-    
+3. **A code editor**<br/>
     Someplace for you to type code. [VS Code](https://code.visualstudio.com/) is a high-quality free and open-source editor.
     
-4. **A terminal**
-    
+4. **A terminal**<br/>
     The opposite of UI. We recommend [Hyper](https://hyper.is/). This is to run and manage your project. MacOS come with a built-in terminal called, um, Terminal. Windows has Command Prompt.
 
 ---
