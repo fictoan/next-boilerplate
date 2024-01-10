@@ -1,0 +1,13 @@
+@font-face {
+    font-family : "TT Livret";
+    src         : url("../assets/fonts/TT_Livret_Text_Regular.ttf") format("truetype");
+    font-weight : 400;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "TT Livret";
+    src         : url("../assets/fonts/TT_Livret_Text_Bold.ttf") format("truetype");
+    font-weight : 600;
+    font-style  : normal;
+}
