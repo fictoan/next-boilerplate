@@ -1,13 +1,88 @@
+/* Using the IBM Plex font family v6.3.0 */
+
+/* SANS — IBM PLEX SANS ===================================================== */
 @font-face {
-    font-family : "TT Livret";
-    src         : url("../assets/fonts/TT_Livret_Text_Regular.ttf") format("truetype");
+    font-family : "IBM Plex Sans";
+    src         : url("../assets/fonts/IBM-Plex-Sans/IBMPlexSans-Regular.woff2") format("woff2");
     font-weight : 400;
     font-style  : normal;
 }
 
 @font-face {
-    font-family : "TT Livret";
-    src         : url("../assets/fonts/TT_Livret_Text_Bold.ttf") format("truetype");
-    font-weight : 600;
+    font-family : "IBM Plex Sans";
+    src         : url("../assets/fonts/IBM-Plex-Sans/IBMPlexSans-Italic.woff2") format("woff2");
+    font-weight : 400;
+    font-style  : italic;
+}
+
+@font-face {
+    font-family : "IBM Plex Sans";
+    src         : url("../assets/fonts/IBM-Plex-Sans/IBMPlexSans-Bold.woff2") format("woff2");
+    font-weight : 700;
     font-style  : normal;
+}
+
+@font-face {
+    font-family : "IBM Plex Sans";
+    src         : url("../assets/fonts/IBM-Plex-Sans/IBMPlexSans-Bolditalic.woff2") format("woff2");
+    font-weight : 700;
+    font-style  : italic;
+}
+
+/* SERIF — IBM PLEX SERIF =================================================== */
+@font-face {
+    font-family : "IBM Plex Serif";
+    src         : url("../assets/fonts/IBM-Plex-Serif/IBMPlexSerif-Regular.woff2") format("woff2");
+    font-weight : 400;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "IBM Plex Serif";
+    src         : url("../assets/fonts/IBM-Plex-Serif/IBMPlexSerif-Italic.woff2") format("woff2");
+    font-weight : 400;
+    font-style  : italic;
+}
+
+@font-face {
+    font-family : "IBM Plex Serif";
+    src         : url("../assets/fonts/IBM-Plex-Serif/IBMPlexSerif-Bold.woff2") format("woff2");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "IBM Plex Serif";
+    src         : url("../assets/fonts/IBM-Plex-Serif/IBMPlexSerif-Bolditalic.woff2") format("woff2");
+    font-weight : 700;
+    font-style  : italic;
+}
+
+/* SERIF — IBM PLEX SERIF =================================================== */
+@font-face {
+    font-family : "IBM Plex Mono";
+    src         : url("../assets/fonts/IBM-Plex-Mono/IBMPlexMono-Regular.woff2") format("woff2");
+    font-weight : 400;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "IBM Plex Mono";
+    src         : url("../assets/fonts/IBM-Plex-Mono/IBMPlexMono-Italic.woff2") format("woff2");
+    font-weight : 400;
+    font-style  : italic;
+}
+
+@font-face {
+    font-family : "IBM Plex Mono";
+    src         : url("../assets/fonts/IBM-Plex-Mono/IBMPlexMono-Bold.woff2") format("woff2");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "IBM Plex Mono";
+    src         : url("../assets/fonts/IBM-Plex-Mono/IBMPlexMono-Bolditalic.woff2") format("woff2");
+    font-weight : 700;
+    font-style  : italic;
 }

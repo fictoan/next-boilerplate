@@ -1,4 +1,11 @@
-.dark {
-    --body-bg: black;
-    --heading-font-family: "TT Livret";
+.theme-dark {
+    /* FICTOAN VARIABLES ==================================================== */
+    --body-bg               : black;
+    --heading-font-family   : "IBM Plex Sans";
+    --heading-text-colour   : var(--slate-dark-20);
+
+    --paragraph-font-family : "IBM Plex Sans";
+
+    /* CUSTOM COMPONENTS ==================================================== */
+    --header-border         : var(--slate-dark-30);
 }
