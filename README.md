@@ -1,4 +1,7 @@
 ## Fictoan boilerplate for React
+### v1.0.0
+
+---
 
 ### Getting Started
 
@@ -15,7 +18,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ---
 
-### Learn More
+### Learn more
 
 - [Fictoan Docs](https://fictoan.io/) - Everything you need to know about Fictoan
 
