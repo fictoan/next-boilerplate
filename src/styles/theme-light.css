@@ -1,0 +1,6 @@
+.theme-light {
+  /* Paste this in your theme file */
+  --badge-font: var(--paragraph-font);
+  --badge-border-radius: 8px;
+  --badge-border-width: 1px;
+}
