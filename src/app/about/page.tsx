@@ -24,21 +24,9 @@ import "./page-about.css";
 const AboutPage = () => {
   return (
     <Element as="article" id="page-about">
-      <Row layoutAsGrid bgColour="blue-light-10" padding="small" gutters="huge">
+      <Row layoutAsGrid padding="small" gutters="huge">
         <Portion>
-          <Heading1 as="h1" textColour="white">
-            This is the about page!
-          </Heading1>
-        </Portion>
-        <Portion>
-          <Badge
-            bgColor="red"
-            textColor="white"
-            borderColor="white"
-            shape="rounded"
-          >
-            Text
-          </Badge>
+          <Heading1 as="h1">This is the about page!</Heading1>
         </Portion>
       </Row>
     </Element>

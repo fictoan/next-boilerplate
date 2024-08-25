@@ -10,8 +10,7 @@ import {
   Heading1,
   Portion,
   Row,
-  Text,
-  CodeBlock,
+  Text
 } from "fictoan-react";
 
 // COMPONENTS ==================================================================
@@ -161,14 +160,6 @@ export default function Home() {
               </Text>
             </Card>
           </Element>
-        </Portion>
-        <Portion>
-          <CodeBlock
-            language="json"
-            source={code}
-            showCopyButton
-            showLineNumbers
-          />
         </Portion>
       </Row>
     </article>

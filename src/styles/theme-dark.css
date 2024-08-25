@@ -1,16 +1,7 @@
 .theme-dark {
+  --font-sans-serif: "IBM Plex Sans", sans-serif;
+  --font-serif: "IBM Plex Serif", serif;
+  --font-mono: "IBM Plex Mono", monospace;
   /* FICTOAN VARIABLES ==================================================== */
   --body-bg: black;
-  --heading-font-family: "IBM Plex Sans";
-  --heading-text-colour: var(--slate-dark-20);
-
-  --paragraph-font-family: "IBM Plex Sans";
-
-  /* CUSTOM COMPONENTS ==================================================== */
-  --header-border: var(--slate-dark-30);
-
-  /* Paste this in your theme file */
-  --badge-font: var(--paragraph-font);
-  --badge-border-radius: 8px;
-  --badge-border-width: 1px;
 }
