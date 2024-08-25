@@ -4,25 +4,33 @@
 import React from "react";
 
 // INTERNAL DEPS ===============================================================
-import { Button, Card, Element, Heading, InputField, Portion, Row, Text } from "fictoan-react";
+import {
+  Badge,
+  Button,
+  Card,
+  Element,
+  Heading1,
+  InputField,
+  Portion,
+  Row,
+  Text,
+} from "fictoan-react";
 
 // COMPONENTS ==================================================================
 
 // STYLES ======================================================================
 import "./page-about.css";
 
-
-
 const AboutPage = () => {
-    return (
-        <Element as="article" id="page-about">
-            <Row layout="grid" bgColour="blue-light-10" padding="small" gutters="huge">
-                <Portion>
-                    <Heading as="h1" textColour="white">This is the about page!</Heading>
-                </Portion>
-            </Row>
-        </Element>
-    );
+  return (
+    <Element as="article" id="page-about">
+      <Row layoutAsGrid padding="small" gutters="huge">
+        <Portion>
+          <Heading1 as="h1">This is the about page!</Heading1>
+        </Portion>
+      </Row>
+    </Element>
+  );
 };
 
 export default AboutPage;

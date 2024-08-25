@@ -1,7 +1,5 @@
-.theme-dark {
+.theme-light {
   --font-sans-serif: "IBM Plex Sans", sans-serif;
   --font-serif: "IBM Plex Serif", serif;
   --font-mono: "IBM Plex Mono", monospace;
-  /* FICTOAN VARIABLES ==================================================== */
-  --body-bg: black;
 }
