@@ -10,7 +10,7 @@ import {
   Heading1,
   Portion,
   Row,
-  Text
+  Text,
 } from "fictoan-react";
 
 // COMPONENTS ==================================================================
@@ -20,14 +20,6 @@ import "@/styles/home.css";
 
 // ASSETS ======================================================================
 import FictoanLogo from "@/assets/fictoan-logo.svg";
-
-let code = {
-  plugins: [
-    {
-      name: "next",
-    },
-  ],
-};
 
 export default function Home() {
   return (
@@ -143,7 +135,7 @@ export default function Home() {
               borderColour="brick"
             >
               <Text textColour="black" size="large" weight="600">
-                Card 1
+                Card 2
               </Text>
             </Card>
 
@@ -156,7 +148,7 @@ export default function Home() {
               borderColour="sky"
             >
               <Text textColour="black" size="large" weight="600">
-                Card 1
+                Card 3
               </Text>
             </Card>
           </Element>
