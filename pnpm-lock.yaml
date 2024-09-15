@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       fictoan-react:
-        specifier: latest
-        version: 1.3.0(react@18.3.1)
+        specifier: ^1.3.1
+        version: 1.3.1(react@18.3.1)
       next:
         specifier: 14.0.4
         version: 14.0.4(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -997,8 +997,8 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
 
-  fictoan-react@1.3.0:
-    resolution: {integrity: sha512-uUXIe1xpVYV0rFyEva4/SF1lOKS6enqELO1lhJk0Qora/5oqsmYhAOKcyix/gvGgh9RH0EmjMWToZpCf3/N1/w==}
+  fictoan-react@1.3.1:
+    resolution: {integrity: sha512-NjZZ/4wxsJW5RZYHczonlbUi1SwXMBIP0jmsnTgkNNGGQSuwigGGPseFAugUiQ+ddeIWZ10gntNmMOPwHhKpiw==}
     peerDependencies:
       react: ^18.2.0
 
@@ -2422,7 +2422,7 @@ snapshots:
 
   esutils@2.0.3: {}
 
-  fictoan-react@1.3.0(react@18.3.1):
+  fictoan-react@1.3.1(react@18.3.1):
     dependencies:
       react: 18.3.1
 
