@@ -16,9 +16,9 @@ export const Header = () => {
 
   const toggleTheme = () => {
     if (theme === "theme-light") {
-      setTheme("dark");
+      setTheme("theme-dark");
     } else {
-      setTheme("light");
+      setTheme("theme-light");
     }
   };
 

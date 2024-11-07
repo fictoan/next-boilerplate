@@ -11,6 +11,7 @@ import {
   Portion,
   Row,
   Text,
+  CodeBlock,
 } from "fictoan-react";
 
 // COMPONENTS ==================================================================
@@ -22,6 +23,12 @@ import "@/styles/home.css";
 import FictoanLogo from "@/assets/fictoan-logo.svg";
 
 export default function Home() {
+  const code = `let a = 1;
+let b = "This is a codeblock";
+const c = () => {
+  console.log("Fictoan!");
+};
+`;
   return (
     <article id="page-home">
       <Row layoutAsGrid horizontalPadding="large" marginTop="small">
@@ -147,9 +154,7 @@ export default function Home() {
               bgColour="sky-light-30"
               borderColour="sky"
             >
-              <Text textColour="black" size="large" weight="600">
-                Card 3
-              </Text>
+              <CodeBlock source={code} language="javascript" />
             </Card>
           </Element>
         </Portion>

@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ThemeProvider currentTheme="theme-light">
+        <ThemeProvider currentTheme="theme-dark">
           <Header />
 
           {children}
