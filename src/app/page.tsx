@@ -54,7 +54,6 @@ const c = () => {
             >
               <header>
                 <Text
-                  textColour="black"
                   size="large"
                   weight="600"
                   marginBottom="nano"
@@ -90,7 +89,6 @@ const c = () => {
             >
               <header>
                 <Text
-                  textColour="black"
                   size="large"
                   weight="600"
                   marginBottom="nano"
@@ -128,7 +126,7 @@ const c = () => {
               bgColour="green-light-30"
               borderColour="green"
             >
-              <Text textColour="black" size="large" weight="600">
+              <Text size="large" weight="600">
                 Card 1
               </Text>
             </Card>
