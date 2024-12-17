@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "fictoan-react": "^1.3.6",
+    "fictoan-react": "latest",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
