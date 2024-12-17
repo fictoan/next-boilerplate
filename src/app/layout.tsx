@@ -25,10 +25,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const listOfThemes = ["theme-light", "theme-dark"];
+
   return (
     <html lang="en">
       <body>
-        <ThemeProvider currentTheme="theme-dark">
+        <ThemeProvider themeList={listOfThemes} currentTheme="theme-dark">
           <Header />
 
           {children}
