@@ -12,7 +12,7 @@ import { useTheme } from "fictoan-react";
 import "./header.css";
 
 export const Header = () => {
-  const { theme, setTheme } = useTheme();
+  const [ theme, setTheme ] = useTheme();
 
   const toggleTheme = () => {
     if (theme === "theme-light") {
