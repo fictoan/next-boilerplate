@@ -10,5 +10,5 @@
 
 /* GLOBAL RULES ///////////////////////////////////////////////////////////// */
 .theme-dark #fictoan-logo {
-    filter: invert(1);
+    filter : invert(1);
 }

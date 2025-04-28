@@ -1,41 +1,31 @@
-// EXTERNAL DEPS ===============================================================
-import React from "react";
+// FRAMEWORK ===========================================================================================================
+import { ReactNode } from "react";
 
-// INTERNAL DEPS ===============================================================
-import { ThemeProvider } from "fictoan-react";
+// OTHER ===============================================================================================================
+import { RootLayoutClient } from "./layout.client";
 
-// COMPONENTS ==================================================================
-import { Header } from "@/components/Header/Header";
-
-// STYLES ======================================================================
-import "@/styles/globals.css";
-
-// ASSETS ======================================================================
-
-// TYPES =======================================================================
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Boilerplate for React — Fictoan Framework",
-  description: "NextJS boilerplate for React using Fictoan Framework",
+export const metadata = {
+    title        : {
+        template : "%s — Fictoan",
+        default  : "Fictoan — A designer-friendly React UI framework",
+    },
+    description  : "NextJS Boilerplate for Fictoan: A designer-friendly React UI framework",
+    icons        : {
+        icon     : [
+            {
+                url  : "/favicon.ico",
+                type : "image/svg+xml",
+            },
+        ],
+        shortcut : "/favicon.ico",
+    },
+    metadataBase : new URL("https://fictoan.io"),
+    robots       : {
+        index  : true,
+        follow : true,
+    },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  const listOfThemes = ["theme-light", "theme-dark"];
-
-  return (
-    <html lang="en">
-      <body>
-        <ThemeProvider themeList={listOfThemes} currentTheme="theme-dark">
-          <Header />
-
-          {children}
-        </ThemeProvider>
-      </body>
-    </html>
-  );
+export default function RootLayout({children} : { children : ReactNode }) {
+    return <RootLayoutClient>{children}</RootLayoutClient>;
 }

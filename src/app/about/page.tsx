@@ -5,15 +5,10 @@ import React from "react";
 
 // INTERNAL DEPS ===============================================================
 import {
-  Badge,
-  Button,
-  Card,
-  Element,
-  Heading1,
-  InputField,
-  Portion,
-  Row,
-  Text,
+    Article,
+    Heading1,
+    Portion,
+    Row,
 } from "fictoan-react";
 
 // COMPONENTS ==================================================================
@@ -22,15 +17,15 @@ import {
 import "./page-about.css";
 
 const AboutPage = () => {
-  return (
-    <Element as="article" id="page-about">
-      <Row layoutAsGrid padding="small" gutters="huge">
-        <Portion>
-          <Heading1 as="h1">This is the about page!</Heading1>
-        </Portion>
-      </Row>
-    </Element>
-  );
+    return (
+        <Article id="page-about">
+            <Row layoutAsGrid padding="small" gutters="huge">
+                <Portion>
+                    <Heading1 as="h1">This is the about page!</Heading1>
+                </Portion>
+            </Row>
+        </Article>
+    );
 };
 
 export default AboutPage;
